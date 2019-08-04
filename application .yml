@@ -1,16 +1,16 @@
-﻿spring:
-	profiles:
-		active:
-		- dev
+spring:
+   profiles:
+     active:
+     - dev
 ---
 spring:
-	profiles: dev#开发环境
-	application:
-		name: microserviceclouddemo2-config-icss-dev
+  profiles: dev#开发环境
+    application:
+      name: microserviceclouddemo2-config-icss-dev
 ---
 spring:
-	profiles: test#测试环境
-	application:
-		name: microserviceclouddemo2-config-icss-test
+  profiles: test#测试环境
+    application:
+      name: microserviceclouddemo2-config-icss-test
 #保存为utf-8
   
